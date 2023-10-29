@@ -1,0 +1,186 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    background: url("pics/pexels-şeyma-d-11652536.jpg");
+    overflow-y: hidden;
+    
+    
+}
+
+
+img
+{
+    padding: 10px 30px;
+    border: 0px solid silver;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+.box
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    padding: 3px 10px 50px;
+    border-radius: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    box-shadow: 50px;
+    background-color: azure;
+    padding: 0px 0px;
+    padding-bottom: 40px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+div.log
+{
+    padding-bottom: 20px;
+    padding-top: 2px;
+    border-bottom: 1px solid silver;
+    padding-left: 50px;padding-right: 50px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 3em;
+    margin-top: 19px;
+    margin: 0px;
+    margin:0px 0px;
+}
+
+.username
+{
+    margin: 20px;
+    color: silver;
+}
+
+.pass
+{
+    margin: 20px;
+    color: silver;
+}
+
+div.in input
+{
+    border-color: transparent;
+    border-bottom-color: silver;
+    background-color: transparent;
+    border-color: transparent;
+    content: '';
+    margin-left: 50px;margin-right: 50px;
+    border-bottom-color: silver;
+    outline: none;
+}
+div.in input:focus ~ label.out
+{
+    color: transparent;
+}
+
+div.in input:focus
+{
+    border-bottom: 1px solid black;
+}
+
+.out
+{
+    position: absolute;
+    left:80px;
+    pointer-events: none;
+    
+}
+
+.button
+{
+    margin-top: 30px;
+    position: relative;
+    left: 50px;
+    padding: 5px 80px;
+    border-radius: 500px;
+    background-color: rgba(251,200,180,18);
+    cursor: pointer;
+    border: 1px solid skyblue;
+}
+
+.Nopass
+{
+    font-size: 10px;
+    padding-top:10px ;
+    padding-right:30px;
+    color: black;
+    font-family: cursive
+    
+}
+
+.Nopass a:hover
+{
+    text-decoration: none;
+    letter-spacing: 0;
+}
+
+.button:hover
+{
+    letter-spacing: 1px;
+}
+
+div.bu
+{
+    display: block;
+    padding-left: auto;
+    margin-right: auto;
+}
+
+span
+{
+    display: block;
+    text-align: center;
+}
+
+
+span a
+{
+    color: black;
+}
+span a:hover
+{
+    letter-spacing: 1px;
+}
+
+nav ul
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: inline;
+    background-color: #2D8EBC;
+    margin-top: 0;
+    border-bottom: 5px solid black;
+    float: right;
+}
+
+.elzero
+{
+    float: left;
+}
+
+nav ul li:hover
+{
+    color:ghostwhite;
+    background-color:#11F54F ;
+    cursor: pointer;
+    
+}
+
+nav ul li
+{
+    display: inline;
+    float: right;
+    margin: 0px;
+    padding:20px 50px 10px 50px;
+    border-right~border-left: 1.5px solid #75D602; 
+    
+}
